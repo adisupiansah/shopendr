@@ -1,0 +1,46 @@
+body {
+    background-color: #F0F0F0;
+}
+
+
+
+.card{
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.jdul {
+    margin-bottom: -5%;
+}
+
+.btn {
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: #549d64;
+}
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        width: 100%;
+    }
+    .log {
+        /* margin-bottom: -40px; */
+        margin-top: -40px;
+    }
+   .container {
+    margin-top: -9%;
+   }
+   ul {
+        padding-right: 8%;
+   }
+}

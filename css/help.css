@@ -1,0 +1,10 @@
+.icon {
+    font-size: 25px;
+    
+}
+
+@media screen and (max-width: 500px) {
+    ul li .panduan {
+        width: 300px;
+    }
+}

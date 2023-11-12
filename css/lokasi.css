@@ -1,0 +1,53 @@
+#map {
+    height: 400px;
+}
+
+.respon {
+    margin-top: -30px;
+  }
+  
+  .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 500px){
+    /* tombol navbar  */
+    .respon {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #ffff;
+      z-index: 1;
+      font-weight: 500;
+  
+  }
+  
+  .icon {
+      font-size: 20px;
+      display: block;
+      margin-bottom: -30px;
+  
+  }
+  
+  .nav-item {
+      margin-right: 5px;
+      margin-left: 5px;
+  }
+  
+  footer {
+      position: relative;
+      margin-bottom: 20px;
+      bottom: 0;
+  }
+  
+  .dev {
+      font-size: 10px;
+      color: red;
+  }
+  #map {
+    height: 300px;
+    width: 350px;
+    margin-left: 10px;
+  }
+    
+    }
